@@ -340,7 +340,7 @@ ul.email li img {
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
-     height: 90vh;
+     height: 1034px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -376,7 +376,6 @@ ul.email li img {
 }
 
 .bg_white {
-     background: #fffffff0;
      padding: 45px 20px 50px 20px;
 }
 
@@ -966,4 +965,10 @@ ul.re_post li {
      transform: scale(1.3); /* Збільшення при наведенні */
  }
  
+ @media (max-width: 768px) { /* Планшет або телефон */
+     ul.email li img {
+         padding-top: 30px;
+         padding-right: 15px;
+     }
+ }
 /** end contact **/
