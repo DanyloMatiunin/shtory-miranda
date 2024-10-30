@@ -337,14 +337,15 @@ ul.email li img {
 
 .banner_main {
      background: url(../images/banner1.jpg);
-     background-size: 100% 100%;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
-     height: 1034px;
+     height: 91vh;
      display: flex;
      justify-content: center;
      align-items: center;
-}
+ }
+ 
 
 .carousel-indicators li {
      width: 20px;
@@ -401,7 +402,6 @@ ul.email li img {
      font-size: 17px;
      font-weight: 500;
      margin: 0 auto;
-     margin-top: 55px;
 }
 
 .ban_btn .carousel-control-next-icon,
@@ -430,7 +430,7 @@ ul.email li img {
 }*/
 
 .about {
-     padding-top: 10px;
+     padding-top: 40px;
 }
 
 .about .titlepage p {
@@ -957,7 +957,7 @@ ul.re_post li {
 .telegram, .viber, .instagram {
      width: 50px; /* Задайте бажану ширину */
      height: 50px; /* Задайте бажану висоту */
-     margin: 0 50px; /* Відступи між іконками */
+     margin: 0 20px; /* Відступи між іконками */
      transition: transform 0.3s; /* Ефект переходу */
  }
  
@@ -971,4 +971,13 @@ ul.re_post li {
          padding-right: 15px;
      }
  }
+
+ @media (max-width: 768px) {
+     .yello {
+         width: 100%; /* Забезпечить адаптацію до ширини екрану */
+         padding: 15px; /* Зменшений внутрішній відступ для компактності */
+         font-size: 3rem; /* Оптимізований розмір шрифту для мобільних пристроїв */
+     }
+ }
+ 
 /** end contact **/
