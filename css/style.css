@@ -979,5 +979,22 @@ ul.re_post li {
          font-size: 3rem; /* Оптимізований розмір шрифту для мобільних пристроїв */
      }
  }
+
+ .yellow {
+     color: #fe9a0c;
+     font-size: 23px;
+        line-height: 29px;
+        font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    text-transform: uppercase;
+ }
+
+ @media (max-width: 575px) {
+     .yellow {
+         font-size: 23px;
+         line-height: 29px;
+     }
+ }
  
 /** end contact **/
